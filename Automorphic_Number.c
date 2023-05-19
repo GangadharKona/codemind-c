@@ -16,6 +16,6 @@ int main()
     }
     else
     {
-        printf("Not an Automorphic Number ");
+        printf("Not an Automorphic Number");
     }
 }
