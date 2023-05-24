@@ -12,7 +12,7 @@ int main()
         else if(n%3==0)
         {
             n/=3;
-        } 
+        }
         else if(n%5==0)
         {
             n/=5;
