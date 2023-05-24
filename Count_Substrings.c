@@ -1,20 +1,20 @@
 #include<stdio.h>
 int main()
 {
-    int n;
-    scanf("%d",&n);
-    while(n--)
+    int t;
+    scanf("%d",&t);
+    for(int k=0;k<t;k++)
     {
-        int m;
-        scanf("%d",&m);
-        char s[100];
-        scanf("%s",s);
+        int n;
+        scanf("%d",&n);
+        char str[n];
+        scanf("%s",str);
         int c=0;
-        for(int i=0;i<m;i++)
+        for(int i=0;i<n;i++)
         {
-            for(int j=i;j<m;j++)
+            for(int j=i;j<n;j++)
             {
-                if(s[i]=='1' && s[j]=='1')
+                if(str[i]=='1'&& str[j]=='1')
                 {
                     c++;
                 }
